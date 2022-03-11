@@ -3,6 +3,34 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{ 
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px 10px;
+    box-shadow: 0px 0px 30px 5px hsl(210, 9%, 73%)
+}
+
+main::before{
+    background-image: url("/images/drawers.jpg");
+    padding: 500px;
+    margin: 500px;
+    border: solid;
+}
+
+.info_container{
+    display: flex;
 }
 
 footer { 
