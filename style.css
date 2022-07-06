@@ -10,23 +10,36 @@ body{
     justify-items: center;
     align-items: center;
     min-height: 100vh;
+    font-size: 13px;
 }
 
 main{
     display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
     background-color: white;
     border-radius: 10px 10px;
-    box-shadow: 0px 0px 30px 5px hsl(210, 9%, 73%)
+    box-shadow: 0px 0px 30px 1px hsl(210, 9%, 73%)
 }
 
-.info_container::before{
-    background-image: url("/images/drawers.jpg");
-    margin: 500px;
-    border: solid;
+.left_bg_card img{
+    width: 390px;
+    height: 100%;
 }
 
-.info_container{
-    display: flex;
+.left_bg_card{
+    width: 700px; 
+    height: 300px; 
+    overflow: hidden;
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+}
+
+.info_container{ display: flex; }
+
+.profil_pic img{
+    width: 20%;
+    border-radius: 50%
 }
 
 footer { 
