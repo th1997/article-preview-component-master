@@ -43,7 +43,7 @@ main{
 
 .left_bg_card{
     overflow: hidden;
-    width: 140%;
+    width: 115%;
     border-top-left-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
 }
@@ -51,7 +51,7 @@ main{
 .text_card{
     display: flex;
     flex-direction: column;
-    margin:5% 2% 5% 5%;
+    margin:4% 3% 4% 4%;
 }
 
 .title{
@@ -75,7 +75,7 @@ main{
 
 .info_container{
     display: grid;
-    grid-template-columns: 50px repeat(1, 1fr);
+    grid-template-columns: 18% repeat(1, 1fr);
     grid-template-rows: 1fr 1fr;
 }
 
@@ -83,28 +83,28 @@ main{
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 3;
-    align-self: center
+    align-self: center;
 }
 
 .profil_pic img{
     width: 100%;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .name{
     grid-column: 2;
     grid-row: 1;
-    margin-left: 10%;
     align-self: end;
     font-weight: 700;
     color: var(--Very-Dark-Grayish-Blue);
     font-size: 1.2em;
+    margin-left: 8%;
 }
 
 .date{
     grid-column: 2;
     grid-row: 2;
-    margin-left: 10%;
+    margin-left: 8%;
     align-self: center;
     font-weight: 500;
     color: var(--Grayish-Blue);
