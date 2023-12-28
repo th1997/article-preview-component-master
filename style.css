@@ -11,6 +11,7 @@ body{
     align-items: center;
     min-height: 100vh;
     font-size: 13px;
+
 }
 
 main{
@@ -29,16 +30,75 @@ main{
 
 .left_bg_card{
     width: 700px; 
-    height: 300px; 
+    height: 310px; 
     overflow: hidden;
     border-top-left-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
 }
 
-.info_container{ display: flex; }
+.text_card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 10%;
+}
+
+.title{
+    font-weight: 700;
+    margin: 0;
+}
+
+.text_content{
+    font-weight: 500;
+    margin: 0;
+}
+
+.info_container{
+    display: grid;
+    grid-template-columns: 50px repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.profil_pic{
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center
+}
+
+.name{
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: 5%;
+}
+
+.name p{margin-bottom: 0% }
+
+.date{
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 5%;
+    align-self: start
+}
+
+.date p{ margin-top: 0% }
+
+.share_btn{
+    grid-column: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    align-self: center
+}
+
+.share_btn img{ 
+    background-color: hsl(210, 46%, 95%);
+    padding: 4%;
+    border-radius: 50%;
+    margin-left: 90%
+}
 
 .profil_pic img{
-    width: 20%;
+    width: 75%;
     border-radius: 50%
 }
 
