@@ -1,7 +1,8 @@
 function toggleShare() {
     var shareBtn = document.getElementById('share_btn');
     var svgShare = document.getElementById('svg_share');
-  
+    var etat = document.getElementById('SNcontainer').style.visibility;
+
     // Ajoute ou supprime la classe 'active' pour changer les styles
     shareBtn.classList.toggle('active');
     
@@ -15,5 +16,12 @@ function toggleShare() {
       // Rétablit les styles par défaut si la classe 'active' est supprimée
       shareBtn.style.backgroundColor = 'var(--Light-Grayish-Blue)';
       svgShare.style.fill = 'var(--Desaturated-Dark-Blue)';
+    }
+
+    if(etat=="hidden"){
+        document.getElementById('SNcontainer').style.visibility="visible";
+    }
+    else{
+        document.getElementById('SNcontainer').style.visibility="hidden";
     }
 }
