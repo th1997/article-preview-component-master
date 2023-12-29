@@ -124,7 +124,6 @@ main{
     display: flex;
     position: relative;
     background-color: var(--Very-Dark-Grayish-Blue);
-    visibility: hidden;
     left: 60px;
     bottom: 80px;
     border-radius: 10px;
