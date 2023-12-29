@@ -8,7 +8,7 @@ function toggleShare() {
     
     // Change la couleur de fond en noir
     if (shareBtn.classList.contains('active')) {
-      shareBtn.style.backgroundColor = 'var(--Very-Dark-Grayish-Blue)';
+      shareBtn.style.backgroundColor = 'var(--Desaturated-Dark-Blue)';
 
       // Change la couleur de l'image SVG en blanc
       svgShare.style.fill = 'white';
